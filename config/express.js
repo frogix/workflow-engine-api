@@ -4,7 +4,6 @@ const config = require('./config')
 const morgan = require('morgan')
 const routes = require('../server');
 const bodyParser = require('body-parser');
-const httpStatus = require('http-status');
 
 const app = express()
 
